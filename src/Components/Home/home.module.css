@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main__Component{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+.section__One{
+    flex: 1;
+    background-color:#440a6b;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section__Two{
+    flex: 1;
+    background-color: rgb(33, 0, 56);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display:  flex;
+    border: 0.01rem solid rgba(255, 255, 255, 0.523);
+    flex-direction: column;
+}
+.heading__One{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom:2rem ;
+    letter-spacing: 0.01rem;
+    text-transform: capitalize;
+}
+.style__Icon1{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 15rem;
+    top: 9rem;
+}
+.style__Icon2{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    right: 50rem;
+    top: 4rem;
+}
+.style__Icon3{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    right: 50rem;
+    bottom: 4rem;
+
+}
+.style__Icon4{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 10rem;
+    bottom: 4rem;
+}
+.style__Icon5{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    left: 5rem;
+    bottom: 11rem;
+}
+.style__Icon6{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    bottom: 11rem;
+}
+.heading__Two{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2.5rem;
+    color: linear-gradient(yellow,white);
+}
+.style__Icon7{
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 4rem;
+    right: 57rem;
+    top: 22rem;
+}
+.smile_Icon{
+    color: yellow;
+}
+.instruction__Wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+}
+.bold_Tags{
+    padding: 0px;
+    margin: 0px;
+    padding: 0.2rem;
+    flex-wrap: wrap;
+    text-transform:lowercase;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.heading__Three{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    margin-left:1rem ;
+}

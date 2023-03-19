@@ -1,0 +1,38 @@
+.main__Component{
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient(#440a6b , black);
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5rem;
+    overflow: auto  ;
+}
+.section__One{
+    display: flex;
+    gap: 2rem;
+    width: 40rem;
+    padding-left: 6rem;
+}
+.heading__Two{
+padding: 0px;
+margin: 0px;
+border: 0.01rem solid rgba(255, 255, 255, 0.811);
+padding: 9px;
+border-radius: 6px;
+}
+.heading__One{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+}
+.section__Two{
+ 
+}

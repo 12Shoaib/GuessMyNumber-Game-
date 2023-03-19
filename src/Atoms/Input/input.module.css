@@ -1,0 +1,17 @@
+.main__Component{
+    padding: 0px;
+    margin: 0px;
+}
+.input__Field{
+    height: 2rem;
+    width: 15rem;
+    outline: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 0.01rem solid black;
+    background-color: rgba(255, 255, 255, 0.932);
+    font-weight: 600;
+}
+input {
+    text-align: center;
+}
