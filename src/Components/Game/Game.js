@@ -26,6 +26,7 @@ const Game = () => {
         const num =Math.ceil( Math.random () * (targetTwo-targetOne) + 1 )
         setOutput("Enter the number and guess it")
         setTarget(num)
+        console.log(num)
     }
     const handleUserInput = (e) => {
         setUserInput(e.target.value)
@@ -47,8 +48,8 @@ const Game = () => {
             <h1 className={game.heading__One}>Guess My Number .?</h1>
             <h1>Please set your target range</h1>
             <div className={game.section__One}>
-            <Input onChange={handleTargetOneCapture} value={targetOne} placeholder='Enter target number..' onBlur={generateTarget} />
-            <Input onChange={handleTargetTwoCapture} value={targetTwo} placeholder='Enter target number..' onBlur={generateTarget}/>
+            <Input onChange={handleTargetOneCapture} value={targetOne} placeholder='Enter target number..'  />
+            <Input onChange={handleTargetTwoCapture} value={targetTwo} placeholder='Enter target number..' />
             <Button onClick={generateTarget} name='New target' />
             </div>
             <h2 className={game.heading__Two}>{output}</h2>
